@@ -28,4 +28,7 @@ ohos_cargo_crate("lib") {
         "//third_party/rust/crates/termcolor:lib",
         "//third_party/rust/crates/unicode-width:lib",
     ]
+    module_output_extension = ".rlib"
+    part_name = "rust_codespan"
+    subsystem_name = "thirdparty"
 }
